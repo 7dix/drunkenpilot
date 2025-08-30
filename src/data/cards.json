@@ -1,205 +1,802 @@
-{
-  "cards": [
-    {
-      "id": 101,
-      "type": "quest",
-      "text": "Find 3 shells on the beach within 1 minute.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "timer": 60,
-        "difficulty": "easy"
-      }
-    },
-    {
-      "id": 102,
-      "type": "quest",
-      "text": "Draw a pirate ship in the sand with your finger.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "timer": 120,
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": 103,
-      "type": "quest",
-      "text": "Build a small sandcastle (at least 10cm high).",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "timer": 180,
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": 104,
-      "type": "quest",
-      "text": "Find something blue in nature around you.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "timer": 90,
-        "difficulty": "easy"
-      }
-    },
-    {
-      "id": 105,
-      "type": "quest",
-      "text": "Collect 5 different types of leaves or flowers.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "timer": 150,
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": 201,
-      "type": "challenge",
-      "text": "What is the name of the largest island in the Canary Islands?",
-      "options": ["Lanzarote", "Tenerife", "Gran Canaria", "Fuerteventura"],
-      "correctAnswerIndex": 1,
-      "metadata": {
-        "difficulty": "medium",
-        "category": "geography"
-      }
-    },
-    {
-      "id": 202,
-      "type": "challenge",
-      "text": "Name a pirate movie from 2003.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "hard",
-        "category": "movies"
-      }
-    },
-    {
-      "id": 203,
-      "type": "challenge",
-      "text": "Which ocean is the largest?",
-      "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
-      "correctAnswerIndex": 1,
-      "metadata": {
-        "difficulty": "easy",
-        "category": "geography"
-      }
-    },
-    {
-      "id": 204,
-      "type": "challenge",
-      "text": "What is the capital of Australia?",
-      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
-      "correctAnswerIndex": 2,
-      "metadata": {
-        "difficulty": "medium",
-        "category": "geography"
-      }
-    },
-    {
-      "id": 205,
-      "type": "challenge",
-      "text": "Name three types of knots used in sailing.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "hard",
-        "category": "sailing"
-      }
-    },
-    {
-      "id": 206,
-      "type": "challenge",
-      "text": "What does 'Ahoy' mean in pirate language?",
-      "options": ["Hello", "Goodbye", "Stop", "Attack"],
-      "correctAnswerIndex": 0,
-      "metadata": {
-        "difficulty": "easy",
-        "category": "pirates"
-      }
-    },
-    {
-      "id": 301,
-      "type": "movement",
-      "text": "Jump three times in place.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "easy"
-      }
-    },
-    {
-      "id": 302,
-      "type": "movement",
-      "text": "Run around the nearest tree or post and come back.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": 303,
-      "type": "movement",
-      "text": "Do 5 push-ups.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": 304,
-      "type": "movement",
-      "text": "Walk like a pirate for 30 seconds (with a limp).",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "easy"
-      }
-    },
-    {
-      "id": 305,
-      "type": "movement",
-      "text": "Balance on one foot for 15 seconds.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "medium"
-      }
-    },
-    {
-      "id": 306,
-      "type": "movement",
-      "text": "Spin around 5 times and then walk in a straight line.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "hard"
-      }
-    },
-    {
-      "id": 307,
-      "type": "movement",
-      "text": "Hop on one foot 10 times.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "easy"
-      }
-    },
-    {
-      "id": 308,
-      "type": "movement",
-      "text": "Do the chicken dance for 20 seconds.",
-      "options": null,
-      "correctAnswerIndex": null,
-      "metadata": {
-        "difficulty": "easy"
-      }
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "type": "quest",
+    "text": "Invent a new rap nickname for yourself and perform your debut rhyme. Judges pick if you drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 2,
+    "type": "challenge",
+    "text": "Who is often called the 'King of Slovak rap'?",
+    "options": ["Separ", "Rytmus", "Majk Spirit", "Pil C"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 3,
+    "type": "movement",
+    "text": "Spin around five times, then try to walk in a straight line. Fail = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {}
+  },
+  {
+    "id": 4,
+    "type": "challenge",
+    "text": "Translate the Slovak rap word 'banger' to Czech slang.",
+    "options": ["Masakr", "Pecka", "Drsňák", "Vychytávka"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 5,
+    "type": "quest",
+    "text": "Find someone who can beatbox for 15 seconds. If no one can, everyone drinks.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 6,
+    "type": "challenge",
+    "text": "Which Czech rapper released the hit 'Život je krásný'?",
+    "options": ["Viktor Sheen", "Nik Tendo", "Yzomandias", "Refew"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 7,
+    "type": "quest",
+    "text": "Show your most badass dance move. Shy? Then drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {}
+  },
+  {
+    "id": 8,
+    "type": "challenge",
+    "text": "Name a Czech or Slovak rap song about partying.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 9,
+    "type": "movement",
+    "text": "Do the 'Czech squat' and hold for 15 seconds. If you topple, you drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK"}
+  },
+  {
+    "id": 10,
+    "type": "challenge",
+    "text": "Who featured in Yzomandias' song 'Peníze'?",
+    "options": ["Nik Tendo", "Viktor Sheen", "Logic", "Nobody"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 11,
+    "type": "quest",
+    "text": "Make up a conspiracy theory about the last rap concert you attended.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 12,
+    "type": "challenge",
+    "text": "What does 'Separ' usually wear at concerts?",
+    "options": ["Sunglasses", "Hat", "Hoodie", "Mask"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 13,
+    "type": "movement",
+    "text": "Crab walk across the room. Fail = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {}
+  },
+  {
+    "id": 14,
+    "type": "challenge",
+    "text": "Finish this lyric: 'Jsem v klubu, ...'",
+    "options": ["a mám náladu", "a chci tančit", "a do rána pařím", "a mám drink"],
+    "correctAnswerIndex": 3,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 15,
+    "type": "quest",
+    "text": "Who had the wildest party story here? Tell it, and the group decides who drinks.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 16,
+    "type": "challenge",
+    "text": "Which city is famous for the label Milion+?",
+    "options": ["Prague", "Brno", "Bratislava", "Ostrava"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 17,
+    "type": "quest",
+    "text": "Imitate your favorite famous rapper. If no one guesses who, you drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 18,
+    "type": "movement",
+    "text": "Hop on one foot while rapping your fave lyric. Stumble = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 19,
+    "type": "challenge",
+    "text": "What is the slogan of Majk Spirit’s Spirit Music label?",
+    "options": ["Stay True", "Go Hard", "Superstar", "Spirit Life"],
+    "correctAnswerIndex": 3,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 20,
+    "type": "quest",
+    "text": "Perform a rap about the last time you were super late.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 21,
+    "type": "challenge",
+    "text": "Who is Yzomandias’ frequent collab partner?",
+    "options": ["Nik Tendo", "Logic", "Paulie Garand", "Separ"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 22,
+    "type": "movement",
+    "text": "High-five every person in the room. Miss someone = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Social"}
+  },
+  {
+    "id": 23,
+    "type": "quest",
+    "text": "Claim to know the secret to rap success. If someone disputes it, both drink and argue.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 24,
+    "type": "challenge",
+    "text": "Which rapper had a beef with Logic?",
+    "options": ["Separ", "Yzomandias", "Rytmus", "Nik Tendo"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 25,
+    "type": "movement",
+    "text": "Sit down, stand up, sit down, stand up, spin. Anyone who mixes up the order, drinks.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 26,
+    "type": "challenge",
+    "text": "Name every rapper in Milion+.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 27,
+    "type": "quest",
+    "text": "Create a rap hook about tonight. Be catchy or drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 28,
+    "type": "challenge",
+    "text": "Who is the frontman of H16?",
+    "options": ["Cigo", "Otecko", "Majk Spirit", "Vec"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 29,
+    "type": "movement",
+    "text": "Duck walk a short lap around the crew. Success = immune for next round.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 30,
+    "type": "challenge",
+    "text": "Finish this line: 'Dělám to pro...'?",
+    "options": ["sebe", "prachy", "rodinu", "show"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 31,
+    "type": "quest",
+    "text": "Come up with a rap group name using only food items.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 32,
+    "type": "challenge",
+    "text": "Which rapper has 'Spirit' in his name?",
+    "options": ["Majk Spirit", "Paulie Garand", "Separ", "Rytmus"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 33,
+    "type": "movement",
+    "text": "Balance on one foot for 20 seconds. Fall = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {}
+  },
+  {
+    "id": 34,
+    "type": "challenge",
+    "text": "Rap battle theme: the worst food you ever ate. Winner chosen by group, loser drinks.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 35,
+    "type": "quest",
+    "text": "Freestyle in mix of Czech and Slovak for 30 seconds.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 36,
+    "type": "challenge",
+    "text": "Who said: 'Mám svůj styl a svůj swag'?",
+    "options": ["Yzomandias", "Separ", "Majk Spirit", "Logic"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 37,
+    "type": "quest",
+    "text": "Take a group selfie with rap hand signs. If no rap hands, drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Fun"}
+  },
+  {
+    "id": 38,
+    "type": "challenge",
+    "text": "Which Czech rapper was born in Liberec?",
+    "options": ["Paulie Garand", "Refew", "Viktor Sheen", "Orion"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 39,
+    "type": "movement",
+    "text": "Do the slowest moonwalk until someone laughs. If no one laughs after 30 seconds, you drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 40,
+    "type": "challenge",
+    "text": "Who is the female rapper behind 'Vibe Tycka'?",
+    "options": ["Sharlota", "Sima", "Annet X", "Viktoria"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 41,
+    "type": "quest",
+    "text": "Invent a word for 'hangover' that should exist in Czech rap.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 42,
+    "type": "challenge",
+    "text": "Who had a song called 'Flexin' on everyone?",
+    "options": ["Yzomandias", "Maniak", "Separ", "Pil C"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 43,
+    "type": "movement",
+    "text": "Waddle like a penguin for 15 seconds. Cringe? Then drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 44,
+    "type": "challenge",
+    "text": "Which rapper’s real name is Patrik Vrbovský?",
+    "options": ["Rytmus", "Separ", "Majk Spirit", "Refew"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 45,
+    "type": "quest",
+    "text": "Mix a random drink from what's nearby. If no one drinks it, creator drinks.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 46,
+    "type": "challenge",
+    "text": "What city does Pil C represent?",
+    "options": ["Bratislava", "Prague", "Košice", "Plzeň"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 47,
+    "type": "movement",
+    "text": "Do five squats while rapping the alphabet. Out of breath = take a sip.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 48,
+    "type": "challenge",
+    "text": "What’s the young Czech rapper known for the hit 'Terapie'?",
+    "options": ["Robin Mood", "Calin", "Viktor Sheen", "Logic"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 49,
+    "type": "quest",
+    "text": "Create a spicy rhyme about someone’s outfit in the room.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Spicy"}
+  },
+  {
+    "id": 50,
+    "type": "challenge",
+    "text": "Name a rapper who also acts as an influencer.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 51,
+    "type": "movement",
+    "text": "Wheelbarrow race with the closest person! Losers drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 52,
+    "type": "challenge",
+    "text": "Which rapper dropped the album 'Kvalitní šumivý víno'?",
+    "options": ["Logic", "Separ", "Paulie Garand", "Yzomandias"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 53,
+    "type": "quest",
+    "text": "Rap about the worst job you ever had.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 54,
+    "type": "challenge",
+    "text": "What does 'Sima' rhyme in her hit 'Femina'?",
+    "options": ["Life", "Power", "Style", "Queen"],
+    "correctAnswerIndex": 3,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 55,
+    "type": "movement",
+    "text": "Jump in place until the next person laughs.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 56,
+    "type": "challenge",
+    "text": "Who is known for glasses and nerdy look: CZ rapper?",
+    "options": ["Maniak", "Paulie Garand", "Viktor Sheen", "Yzomandias"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 57,
+    "type": "quest",
+    "text": "Invent an imaginary rap festival lineup. If uncool, you drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 58,
+    "type": "challenge",
+    "text": "Which rapper has the song 'Hladam si tu pravú'?",
+    "options": ["Pil C", "Majk Spirit", "Rytmus", "Separ"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 59,
+    "type": "movement",
+    "text": "Touch your toes, then jump as high as you can. Fail = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {}
+  },
+  {
+    "id": 60,
+    "type": "challenge",
+    "text": "Which Czech rapper has a song titled 'Aha'?",
+    "options": ["Nik Tendo", "Viktor Sheen", "Maniak", "Refew"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 61,
+    "type": "quest",
+    "text": "Tell a joke using rap slang. Laugh or drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 62,
+    "type": "challenge",
+    "text": "Rap about the worst drink you ever tasted.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Spicy"}
+  },
+  {
+    "id": 63,
+    "type": "movement",
+    "text": "Freeze in pose of a rap star. Move before next card = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 64,
+    "type": "challenge",
+    "text": "Who is the frontman of Milion+ label?",
+    "options": ["Yzomandias", "Nik Tendo", "Refew", "Separ"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 65,
+    "type": "quest",
+    "text": "Make up a silly rap diss about vodka.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Spicy"}
+  },
+  {
+    "id": 66,
+    "type": "challenge",
+    "text": "Name one rapper who sings in both Czech and Slovak.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 67,
+    "type": "movement",
+    "text": "Hop on each foot alternately until next card.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 68,
+    "type": "challenge",
+    "text": "Who made a track about 'Párty v paneláku'?",
+    "options": ["Separ", "Majk Spirit", "Rytmus", "Viktor Sheen"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 69,
+    "type": "quest",
+    "text": "Make up a brand-new genre that’s Czech-Slovak rap plus one music style.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Creative"}
+  },
+  {
+    "id": 70,
+    "type": "challenge",
+    "text": "Finish the CZ rap line: 'Nechci být ...'",
+    "options": ["trapný", "král", "slavnej", "nudnej"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 71,
+    "type": "movement",
+    "text": "Do the worm (or your best attempt). Success or drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 72,
+    "type": "challenge",
+    "text": "Who is known as a battle rapper in Czechia?",
+    "options": ["Orion", "Refew", "Separ", "Pil C"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 73,
+    "type": "quest",
+    "text": "Pick a random item and rap about its secret powers.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 74,
+    "type": "challenge",
+    "text": "Who sings 'Podle sebe'?",
+    "options": ["Yzomandias", "Nik Tendo", "Viktor Sheen", "Majk Spirit"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 75,
+    "type": "movement",
+    "text": "Climb over the nearest obstacle. Struggle = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 76,
+    "type": "challenge",
+    "text": "Name one rapper with tattoos on their face.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 77,
+    "type": "quest",
+    "text": "Invent a dance for a rap banger.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 78,
+    "type": "challenge",
+    "text": "Who is known for wearing oversized sunglasses?",
+    "options": ["Separ", "Majk Spirit", "Yzomandias", "Nik Tendo"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 79,
+    "type": "movement",
+    "text": "Act out your favorite meme for 15 seconds. If it’s not funny, drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 80,
+    "type": "challenge",
+    "text": "What festival hosts the most Czech-Slovak rappers every year?",
+    "options": ["Hip Hop Kemp", "Rock for People", "Beats4Love", "Colours of Ostrava"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 81,
+    "type": "quest",
+    "text": "Pitch a fake product to help rappers flow better.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 82,
+    "type": "challenge",
+    "text": "Name one Czech or Slovak rapper whose name is an English word.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 83,
+    "type": "movement",
+    "text": "Moonwalk to nearest wall and back. Fail = drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 84,
+    "type": "challenge",
+    "text": "Name all current female rappers in CZ or SK.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 85,
+    "type": "quest",
+    "text": "Invent a rap catchphrase for the group.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 86,
+    "type": "challenge",
+    "text": "Which rapper uses mask in his shows?",
+    "options": ["Separ", "Logic", "Majk Spirit", "Yzomandias"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 87,
+    "type": "movement",
+    "text": "Leap like a frog. Most creative frog wins immunity.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 88,
+    "type": "challenge",
+    "text": "Who made 'Nevera' a hit?",
+    "options": ["Rytmus", "Separ", "Majk Spirit", "Pil C"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 89,
+    "type": "quest",
+    "text": "Roast the next person using only rap lines.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Spicy"}
+  },
+  {
+    "id": 90,
+    "type": "challenge",
+    "text": "Who is known for the phrase ‘Milion+ crew forever’?",
+    "options": ["Nik Tendo", "Yzomandias", "Refew", "Robin Mood"],
+    "correctAnswerIndex": 1,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 91,
+    "type": "movement",
+    "text": "Dance like it's your wildest festival memory.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 92,
+    "type": "challenge",
+    "text": "Name a rapper who dropped tracks about love.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 93,
+    "type": "quest",
+    "text": "Create a rap rhyme using only words ending in -ka.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 94,
+    "type": "challenge",
+    "text": "Who is considered the OG of Slovak rap?",
+    "options": ["Rytmus", "Majk Spirit", "Separ", "Pil C"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "SK Rap"}
+  },
+  {
+    "id": 95,
+    "type": "movement",
+    "text": "Do your best breakdance move or drink.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Funny"}
+  },
+  {
+    "id": 96,
+    "type": "challenge",
+    "text": "Name a rapper with a famous tattoo. Say where.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "CZSK Rap"}
+  },
+  {
+    "id": 97,
+    "type": "quest",
+    "text": "Invent a rap based on any local slang.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Party"}
+  },
+  {
+    "id": 98,
+    "type": "challenge",
+    "text": "Who made the viral diss track ‘Hater’?",
+    "options": ["Yzomandias", "Separ", "Refew", "Logic"],
+    "correctAnswerIndex": 2,
+    "metadata": {"theme": "CZ Rap"}
+  },
+  {
+    "id": 99,
+    "type": "movement",
+    "text": "Stand on tiptoes and air-punch until next round.",
+    "options": null,
+    "correctAnswerIndex": null,
+    "metadata": {"theme": "Physical"}
+  },
+  {
+    "id": 100,
+    "type": "challenge",
+    "text": "Which rapper is famous for his mustache?",
+    "options": ["Rytmus", "Majk Spirit", "Separ", "Nik Tendo"],
+    "correctAnswerIndex": 0,
+    "metadata": {"theme": "SK Rap"}
+  }
+]
