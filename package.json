@@ -1,0 +1,19 @@
+{
+  "name": "drunkenpilot",
+  "version": "1.0.0",
+  "description": "DrunkenPilot - A mobile drinking game with pirate theme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
