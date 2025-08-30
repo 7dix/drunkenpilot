@@ -1,4 +1,5 @@
-[
+{
+  "cards":[
   {
     "id": 1,
     "type": "quest",
@@ -800,3 +801,4 @@
     "metadata": {"theme": "SK Rap"}
   }
 ]
+}
