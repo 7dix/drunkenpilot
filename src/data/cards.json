@@ -1,0 +1,205 @@
+{
+  "cards": [
+    {
+      "id": 101,
+      "type": "quest",
+      "text": "Find 3 shells on the beach within 1 minute.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "timer": 60,
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": 102,
+      "type": "quest",
+      "text": "Draw a pirate ship in the sand with your finger.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "timer": 120,
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": 103,
+      "type": "quest",
+      "text": "Build a small sandcastle (at least 10cm high).",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "timer": 180,
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": 104,
+      "type": "quest",
+      "text": "Find something blue in nature around you.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "timer": 90,
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": 105,
+      "type": "quest",
+      "text": "Collect 5 different types of leaves or flowers.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "timer": 150,
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": 201,
+      "type": "challenge",
+      "text": "What is the name of the largest island in the Canary Islands?",
+      "options": ["Lanzarote", "Tenerife", "Gran Canaria", "Fuerteventura"],
+      "correctAnswerIndex": 1,
+      "metadata": {
+        "difficulty": "medium",
+        "category": "geography"
+      }
+    },
+    {
+      "id": 202,
+      "type": "challenge",
+      "text": "Name a pirate movie from 2003.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "hard",
+        "category": "movies"
+      }
+    },
+    {
+      "id": 203,
+      "type": "challenge",
+      "text": "Which ocean is the largest?",
+      "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+      "correctAnswerIndex": 1,
+      "metadata": {
+        "difficulty": "easy",
+        "category": "geography"
+      }
+    },
+    {
+      "id": 204,
+      "type": "challenge",
+      "text": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correctAnswerIndex": 2,
+      "metadata": {
+        "difficulty": "medium",
+        "category": "geography"
+      }
+    },
+    {
+      "id": 205,
+      "type": "challenge",
+      "text": "Name three types of knots used in sailing.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "hard",
+        "category": "sailing"
+      }
+    },
+    {
+      "id": 206,
+      "type": "challenge",
+      "text": "What does 'Ahoy' mean in pirate language?",
+      "options": ["Hello", "Goodbye", "Stop", "Attack"],
+      "correctAnswerIndex": 0,
+      "metadata": {
+        "difficulty": "easy",
+        "category": "pirates"
+      }
+    },
+    {
+      "id": 301,
+      "type": "movement",
+      "text": "Jump three times in place.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": 302,
+      "type": "movement",
+      "text": "Run around the nearest tree or post and come back.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": 303,
+      "type": "movement",
+      "text": "Do 5 push-ups.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": 304,
+      "type": "movement",
+      "text": "Walk like a pirate for 30 seconds (with a limp).",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": 305,
+      "type": "movement",
+      "text": "Balance on one foot for 15 seconds.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "medium"
+      }
+    },
+    {
+      "id": 306,
+      "type": "movement",
+      "text": "Spin around 5 times and then walk in a straight line.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "hard"
+      }
+    },
+    {
+      "id": 307,
+      "type": "movement",
+      "text": "Hop on one foot 10 times.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "easy"
+      }
+    },
+    {
+      "id": 308,
+      "type": "movement",
+      "text": "Do the chicken dance for 20 seconds.",
+      "options": null,
+      "correctAnswerIndex": null,
+      "metadata": {
+        "difficulty": "easy"
+      }
+    }
+  ]
+}
